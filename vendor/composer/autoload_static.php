@@ -9,8 +9,10 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
     );
 
@@ -19,6 +21,7 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
         array (
             'yii\\swiftmailer\\' => 16,
             'yii\\mongodb\\' => 12,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -41,8 +44,11 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
         ),
         'k' => 
         array (
+            'kartik\\tabs\\' => 12,
             'kartik\\sortable\\' => 16,
+            'kartik\\plugins\\tabs\\' => 20,
             'kartik\\mpdf\\' => 12,
+            'kartik\\icons\\' => 13,
             'kartik\\grid\\' => 12,
             'kartik\\export\\' => 14,
             'kartik\\dialog\\' => 14,
@@ -77,11 +83,18 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'PhpOrient\\' => 10,
             'PhpAmqpLib\\' => 11,
+        ),
+        'I' => 
+        array (
+            'InfluxDB\\' => 9,
         ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'F' => 
         array (
@@ -107,6 +120,10 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
         'yii\\mongodb\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-mongodb',
+        ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
         ),
         'yii\\gii\\' => 
         array (
@@ -150,13 +167,25 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
+        'kartik\\tabs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-tabs-x',
+        ),
         'kartik\\sortable\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-sortable',
         ),
+        'kartik\\plugins\\tabs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-tabs-x',
+        ),
         'kartik\\mpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-mpdf',
+        ),
+        'kartik\\icons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-icons',
         ),
         'kartik\\grid\\' => 
         array (
@@ -234,13 +263,29 @@ class ComposerStaticInit2cd4ba327235b229a69f080fc3275dc6
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
+        'PhpOrient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ostico/phporient/src/PhpOrient',
+        ),
         'PhpAmqpLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
+        'InfluxDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/influxdb/influxdb-php/src/InfluxDB',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
         'Faker\\' => 
         array (

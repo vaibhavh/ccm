@@ -27,7 +27,11 @@
         "kartik-v/yii2-mpdf": "dev-master",
         "kartik-v/yii2-export": "@dev",
         "kartik-v/yii2-sortable": "*",
-        "sibilino/yii2-dygraphswidget": "*"
+        "sibilino/yii2-dygraphswidget": "*",
+        "influxdb/influxdb-php": "^1.14",
+        "ostico/phporient": "dev-master",
+        "kartik-v/yii2-tabs-x": "@dev",
+        "kartik-v/yii2-icons": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
