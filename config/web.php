@@ -38,6 +38,8 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        'mongodb' => require(__DIR__ . '/mongodb.php'),
+        'influxdb' => require(__DIR__ . '/influxdb.php'),
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
